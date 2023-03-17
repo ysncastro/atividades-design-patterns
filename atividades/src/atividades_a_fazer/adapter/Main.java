@@ -1,4 +1,4 @@
-package singleton;
+package atividades_a_fazer.adapter;
 
 public class Main {
 

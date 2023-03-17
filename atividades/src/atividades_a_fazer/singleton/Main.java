@@ -1,4 +1,4 @@
-package observer;
+package atividades_a_fazer.singleton;
 
 public class Main {
 

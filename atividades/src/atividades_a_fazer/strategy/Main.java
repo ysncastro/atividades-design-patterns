@@ -1,4 +1,4 @@
-package builder;
+package atividades_a_fazer.strategy;
 
 public class Main {
 
