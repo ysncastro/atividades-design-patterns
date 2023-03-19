@@ -71,3 +71,13 @@ Em seguida, crie uma classe FileProcessor que usa a FileReaderFactory para ler a
 
 Por fim, crie um método principal que cria uma instância de FileProcessor e processa alguns arquivos, imprimindo as informações contidas nos arquivos na tela.
 <br/>
+
+<h2> Exercício do padrão ADAPTER:</h2>
+
+Suponha que você esteja trabalhando em uma aplicação que precisa exibir uma lista de itens em uma interface gráfica de usuário. No entanto, os dados estão armazenados em diferentes fontes, incluindo um banco de dados relacional e um sistema de arquivos.
+
+Usando o padrão Adapter, crie uma classe ItemAdapter que transforma os dados de diferentes fontes em um formato comum, de modo que possam ser exibidos na interface gráfica de usuário. A classe ItemAdapter deve ter um método getItems que retorna uma lista de objetos Item.
+
+Em seguida, crie uma interface gráfica de usuário que exibe os dados da lista de itens usando a classe ItemAdapter.
+
+Por fim, crie um método principal que cria uma instância de ItemAdapter e exibe a lista de itens na interface gráfica de usuário.
