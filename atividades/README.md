@@ -56,7 +56,6 @@ Quantidade disponível
 <br/>
 Descrição
 <br/>
-
-
+<br/>
 Usando o padrão Builder, implemente a classe ElectronicProduct e uma classe ElectronicProductBuilder para construir objetos do tipo ElectronicProduct. O ElectronicProductBuilder deve ter métodos para definir cada um dos atributos do ElectronicProduct.
 <br/>Em seguida, crie um objeto ElectronicProduct usando o ElectronicProductBuilder e imprima as informações do produto na tela.
