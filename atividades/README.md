@@ -41,3 +41,22 @@ O padrão deverá ser aplicado no exemplo do código Main, com propósito de dim
 <br/>
 
 **LINK DE APOIO**: https://www.youtube.com/watch?v=TfAAGUrUBIQ&t=1386s&ab_channel=RinaldoDev
+
+<h2> Exercício do padrão BUILDER:</h2>
+Suponha que você esteja criando uma aplicação de e-commerce que vende produtos eletrônicos. Você precisa criar uma classe para representar um produto eletrônico com os seguintes atributos:
+<br/>
+<br/>
+Nome do produto
+<br/>
+Marca
+<br/>
+Preço
+<br/>
+Quantidade disponível
+<br/>
+Descrição
+<br/>
+
+
+Usando o padrão Builder, implemente a classe ElectronicProduct e uma classe ElectronicProductBuilder para construir objetos do tipo ElectronicProduct. O ElectronicProductBuilder deve ter métodos para definir cada um dos atributos do ElectronicProduct.
+<br/>Em seguida, crie um objeto ElectronicProduct usando o ElectronicProductBuilder e imprima as informações do produto na tela.
