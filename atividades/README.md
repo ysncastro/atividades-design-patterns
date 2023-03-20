@@ -4,7 +4,7 @@ Foram reunidos nesse projeto um compilado de exercícios simples para aplicaçã
 dos dias 20, 21 e 30 de março/2023. <br/>
 
 Os mesmos foram separados em dois packages:
-- atividades_a_fazer (onde estarão os códigos com problemas para VOCÊ resolver! hehe)
+- atividades_a_fazer (onde estarão os códigos com problemas para você resolver! hehe)
 - atividades_resolvidas (onde estarão os códigos com os problemas resolvidos, para serem conferidos depois)
 
 Cada exercício, possui nesse README, uma explicação escrita e o link para um vídeo de apoio no Youtube.
