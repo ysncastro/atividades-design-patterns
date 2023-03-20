@@ -7,7 +7,7 @@ Os mesmos foram separados em dois packages:
 - atividades_a_fazer (onde estarão os códigos com problemas para você resolver! hehe)
 - atividades_resolvidas (onde estarão os códigos com os problemas resolvidos, para serem conferidos depois)
 
-Cada exercício, possui nesse README, uma explicação escrita e o link para um vídeo de apoio no Youtube.
+Cada exercício, possui nesse README, uma explicação escrita (alguns possuem link de apoio do Youtube para resolução do exercício)
 <br/>
 Ao final, também estarão linkadas recomendações de materiais de estudo sobre Design Patterns!
 <br/>
