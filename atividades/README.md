@@ -91,7 +91,7 @@ Usando o padrão Adapter, crie uma classe ItemAdapter que transforma os dados de
 
 Em seguida, crie uma interface gráfica de usuário que exibe os dados da lista de itens usando a classe ItemAdapter.
 
-Por fim, crie um método principal que cria uma instância de ItemAdapter e exibe a lista de itens na interface gráfica de usuário.
+Por fim, crie um método principal que cria uma instância de ItemAdapter e exibe a lista de itens na interface gráfica de usuário. 
 
 
 
