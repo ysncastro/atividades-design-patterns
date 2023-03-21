@@ -81,3 +81,25 @@ Usando o padrão Adapter, crie uma classe ItemAdapter que transforma os dados de
 Em seguida, crie uma interface gráfica de usuário que exibe os dados da lista de itens usando a classe ItemAdapter.
 
 Por fim, crie um método principal que cria uma instância de ItemAdapter e exibe a lista de itens na interface gráfica de usuário.
+
+
+
+<h1>RECOMENDAÇÕES DE ESTUDO:</h1>
+
+Site **REFACTORING GURU** <br/>
+https://refactoring.guru/pt-br/design-patterns/catalog  <br/>
+Possui explicações, ilustrações e exemplos em várias linguagens de cada padrão. <br/>
+
+Canal do Youtube **RINALDODEV** <br/>
+https://www.youtube.com/watch?v=AWOf6Wo6gtg&list=PLuYctAHjg89bBeh25plGraaYiAsryusw6&ab_channel=RinaldoDev <br/>
+Possui uma playlist inteira sobre Design Patterns, ÓTIMA didática!!<br/>
+
+Canal do Youtube **CÓDIGO FONTE TV** <br/>
+https://www.youtube.com/@codigofontetv/playlists <br/>
+Não possuem uma playlist separada para vídeos de padrões, o que dificulta encontrar alguns, mas a didática é muito boa (não só no assunto de Design Patterns,
+recomendamos vídeos deles de outros assuntos também hehe).
+
+Cursos **ALURA** <br/>
+Introdução à Design Patterns: https://cursos.alura.com.br/course/avancando-design-patterns-java <br/>
+Avançando com Design Patterns: https://cursos.alura.com.br/course/introducao-design-patterns-java <br/>
+
