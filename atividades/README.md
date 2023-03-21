@@ -42,6 +42,17 @@ O padrão deverá ser aplicado no exemplo do código Main, com propósito de dim
 
 **LINK DE APOIO**: https://www.youtube.com/watch?v=TfAAGUrUBIQ&t=1386s&ab_channel=RinaldoDev
 
+<h2> Exercício do padrão OBSERVER:</h2>
+Esse exercício possui uma estrutura um pooouco mais difícil de compreender! <br/>
+Nossas interfaces Observer e Observable já estão implementadas, assim como o método main(), que está comentado. <br/>
+Seu trabalho aqui será implementar as classes Topico e InscritoDoTopico, de forma que, quando rodarmos o nosso main(),
+o output seja: <br/>
+<br/>
+João Pedro, o tópico foi atualizado com a mensagem: 'Primeira mensagem do tópico' <br/>
+Ana Marcia, o tópico foi atualizado com a mensagem: 'Primeira mensagem do tópico' <br/>
+Joaquina, o tópico foi atualizado com a mensagem: 'Primeira mensagem do tópico' <br/>
+
+
 <h2> Exercício do padrão BUILDER:</h2>
 Suponha que você esteja criando uma aplicação de e-commerce que vende produtos eletrônicos. Você precisa criar uma classe para representar um produto eletrônico com os seguintes atributos:
 <br/>
