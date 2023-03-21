@@ -68,19 +68,19 @@ Quantidade disponível
 Descrição
 <br/>
 <br/>
-Usando o padrão Builder, implemente a classe ElectronicProduct e uma classe ElectronicProductBuilder para construir objetos do tipo ElectronicProduct. O ElectronicProductBuilder deve ter métodos para definir cada um dos atributos do ElectronicProduct.
-<br/>Em seguida, crie um objeto ElectronicProduct usando o ElectronicProductBuilder e imprima as informações do produto na tela.
+Usando o padrão Builder, implemente a classe ProdutoEletronico e uma classe ProdutoEletronicoBuilder para construir objetos do tipo ProdutoEletronico. O ProdutoEletronicoBuilder deve ter métodos para definir cada um dos atributos do ElectronicProduct.
+<br/>Em seguida, crie um objeto ProdutoEletronico usando o ProdutoEletronicoBuilder e imprima as informações do produto na tela.
 <br/>
 
 <h2> Exercício do padrão FACTORY:</h2>
 
 Suponha que você esteja criando uma aplicação de processamento de arquivos, onde você precisa ler arquivos de diferentes formatos (CSV, XML, JSON) e realizar operações com os dados contidos nesses arquivos. Cada tipo de arquivo requer um processamento diferente.
 
-Usando o padrão Factory Method, crie uma classe FileReaderFactory que tem um método createReader que retorna um objeto de uma das classes filhas de FileReader, dependendo do formato de arquivo solicitado. As classes filhas são CsvReader, XmlReader e JsonReader.
+Usando o padrão Factory Method, crie uma classe LeitorDeArquivoFactory que tem um método criaLeitor que retorna um objeto de uma das classes filhas de LeitorDeArquivo, dependendo do formato de arquivo solicitado. As classes filhas são LeitorCsv, LeitorXml e LeitorJson.
 
-Em seguida, crie uma classe FileProcessor que usa a FileReaderFactory para ler arquivos e realizar operações com os dados contidos nesses arquivos. A classe FileProcessor deve ter um método processFile que recebe o nome do arquivo e o tipo de arquivo (CSV, XML ou JSON) como parâmetros e realiza as operações necessárias com base no formato do arquivo.
+Em seguida, crie uma classe ProcessadorDeArquivo que usa a LeitorDeArquivoFactory para ler arquivos e realizar operações com os dados contidos nesses arquivos. A classe ProcessadorDeArquivo deve ter um método processarArquivo que recebe o nome do arquivo e o tipo de arquivo (CSV, XML ou JSON) como parâmetros e realiza as operações necessárias com base no formato do arquivo.
 
-Por fim, crie um método principal que cria uma instância de FileProcessor e processa alguns arquivos, imprimindo as informações contidas nos arquivos na tela.
+Por fim, crie um método principal que cria uma instância de ProcessadorDeArquivo e processa alguns arquivos, imprimindo as informações contidas nos arquivos na tela.
 <br/>
 
 <h2> Exercício do padrão ADAPTER:</h2>
