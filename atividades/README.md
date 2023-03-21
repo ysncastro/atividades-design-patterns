@@ -78,7 +78,7 @@ Suponha que você esteja criando uma aplicação de processamento de arquivos, o
 
 Usando o padrão Factory Method, crie uma classe LeitorDeArquivoFactory que tem um método criaLeitor que retorna um objeto de uma das classes filhas de LeitorDeArquivos, dependendo do formato de arquivo solicitado. As classes filhas são LeitorCsv, LeitorXml e LeitorJson.
 
-Em seguida, crie uma classe ProcessadorDeArquivo que usa a LeitorDeArquivoFactory para ler arquivos e realizar operações com os dados contidos nesses arquivos. A classe FileProcessor deve ter um método processFile que recebe o nome do arquivo e o tipo de arquivo (CSV, XML ou JSON) como parâmetros e realiza as operações necessárias com base no formato do arquivo.
+Em seguida, crie uma classe ProcessadorDeArquivos que usa a LeitorDeArquivoFactory para ler arquivos e realizar operações com os dados contidos nesses arquivos. A classe FileProcessor deve ter um método processFile que recebe o nome do arquivo e o tipo de arquivo (CSV, XML ou JSON) como parâmetros e realiza as operações necessárias com base no formato do arquivo.
 
 Por fim, crie um método principal que cria uma instância de ProcessadorDeArquivo e processa alguns arquivos, imprimindo as informações contidas nos arquivos na tela.
 <br/>
