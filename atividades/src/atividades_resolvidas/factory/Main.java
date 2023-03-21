@@ -3,12 +3,12 @@ package atividades_resolvidas.factory;
 public class Main {
 
     public static void main(String[] args) {
-        FileReaderFactory readerFactory = new FileReaderFactory();
-        FileProcessor fileProcessor = new FileProcessor(readerFactory);
+        LeitorDeArquivoFactory leitorFactory = new LeitorDeArquivoFactory();
+        ProcessadorDeArquivo processadorDeArquivo = new ProcessadorDeArquivo(leitorFactory);
 
-        fileProcessor.processFile("data.csv", "csv");
-        fileProcessor.processFile("data.xml", "xml");
-        fileProcessor.processFile("data.json", "json");
+        processadorDeArquivo.processFile("data.csv", "csv");
+        processadorDeArquivo.processFile("data.xml", "xml");
+        processadorDeArquivo.processFile("data.json", "json");
     }
 
 }

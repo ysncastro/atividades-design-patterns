@@ -1,19 +1,19 @@
 package atividades_resolvidas.adapter;
 
 public class Item {
-    private String name;
-    private String description;
+    private String nome;
+    private String descricao;
 
-    public Item(String name, String description) {
-        this.name = name;
-        this.description = description;
+    public Item(String nome, String descricao) {
+        this.nome = nome;
+        this.descricao = descricao;
     }
 
-    public String getName() {
-        return name;
+    public String getNome() {
+        return nome;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDescricao() {
+        return descricao;
     }
 }

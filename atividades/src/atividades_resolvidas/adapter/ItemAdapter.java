@@ -5,26 +5,26 @@ import java.util.List;
 
 public class ItemAdapter {
 
-    private RelationalDatabase db;
-    private FileSystem fileSystem;
+    private BancoRelacional db;
+    private SistemaDeArquivo sistemaDeArquivo;
 
-    public ItemAdapter(RelationalDatabase db, FileSystem fileSystem) {
+    public ItemAdapter(BancoRelacional db, SistemaDeArquivo sistemaDeArquivo) {
         this.db = db;
-        this.fileSystem = fileSystem;
+        this.sistemaDeArquivo = sistemaDeArquivo;
     }
 
     public List<Item> getItems() {
         List<Item> itemList = new ArrayList<>();
 
         // Recuperar itens do banco de dados relacional
-        List<Object[]> dbItemsData = db.getItemsFromDb();
-        for (Object[] data : dbItemsData) {
+        List<Object[]> dadosItensDoBanco = db.obterItensDoBanco();
+        for (Object[] data : dadosItensDoBanco) {
             itemList.add(new Item((String) data[0], (String) data[1]));
         }
 
         // Recuperar itens do sistema de arquivos
-        List<String[]> fileItemsData = fileSystem.getItemsFromFileSystem();
-        for (String[] data : fileItemsData) {
+        List<String[]> dadosItensArquivo = sistemaDeArquivo.obterItensSistemaArquivos();
+        for (String[] data : dadosItensArquivo) {
             itemList.add(new Item(data[0], data[1]));
         }
 
